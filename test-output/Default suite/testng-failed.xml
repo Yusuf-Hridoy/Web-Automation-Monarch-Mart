@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcase.test_signpage_without_number">
+      <class name="testcase.order_test">
         <methods>
           <include name="setBrowser"/>
+          <include name="test"/>
           <include name="quitBrowser"/>
-          <include name="without_number"/>
         </methods>
-      </class> <!-- testcase.test_signpage_without_number -->
+      </class> <!-- testcase.order_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

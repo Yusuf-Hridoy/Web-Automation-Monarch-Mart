@@ -14,7 +14,7 @@ import org.testng.annotations.BeforeClass;
 import common_poperty.commons;
 
 public class commons {
-	private static String browserName = System.getProperty("browser", "firefox");
+	private static String browserName = System.getProperty("browser", "chrome");
 	private static final ThreadLocal<WebDriver> LOCAL_DRIVER = new ThreadLocal<>();
 
 	public static void setDriver(WebDriver driver) {

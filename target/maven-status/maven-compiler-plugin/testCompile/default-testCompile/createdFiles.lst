@@ -1,0 +1,9 @@
+testcase\order_test.class
+pages\signup_page.class
+testcase\test_with_wrong_mail.class
+testcase\test_signpage_without_number.class
+pages\basepage.class
+common_poperty\commons.class
+testcase\test_sign.class
+pages\homepage.class
+pages\mobile_page.class
