@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 
 public class signup_page extends basepage {
-	public By signup_button = By.xpath("//button[normalize-space()='Signup']");
+	public By signup_button = By.xpath("(//button[normalize-space()='Signup'])[1]");
 	public By first_name = By.xpath("//input[@placeholder='Write your first name']");
 	public By last_name = By.xpath("//input[@placeholder='Write your last name']");
 	public By phone = By.className("InputPhone_input__0mrGh");
@@ -13,5 +13,7 @@ public class signup_page extends basepage {
 	public By checkbox = By.xpath("//input[@type='checkbox']");
 	public By register = By.xpath("//button[normalize-space()='Register Now']");
 	public By login_error = By.cssSelector(".login_error__tMD9R");
+	public By Click_to_go_signup = By.xpath("//div[@class='Header_avatar__kxT1i']");
+	
 
 }

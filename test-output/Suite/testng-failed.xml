@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcase.order_test">
+      <class name="testcase.Rifat_vau">
         <methods>
           <include name="setBrowser"/>
-          <include name="test"/>
           <include name="quitBrowser"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- testcase.order_test -->
+      </class> <!-- testcase.Rifat_vau -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-03T16:40:14 BDT" name="Default suite" finished-at="2023-06-03T16:40:34 BDT" duration-ms="19195">
+  <suite started-at="2023-08-05T21:36:53 BDT" name="Default suite" finished-at="2023-08-05T21:38:08 BDT" duration-ms="75146">
     <groups>
     </groups>
-    <test started-at="2023-06-03T16:40:14 BDT" name="Default test" finished-at="2023-06-03T16:40:34 BDT" duration-ms="19195">
-      <class name="testcase.order_test">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcase.order_test@5f9be66c]" started-at="2023-06-03T16:40:14 BDT" name="setBrowser" finished-at="2023-06-03T16:40:16 BDT" duration-ms="1445" status="PASS">
+    <test started-at="2023-08-05T21:36:53 BDT" name="Default test" finished-at="2023-08-05T21:38:08 BDT" duration-ms="75146">
+      <class name="testcase.Login_page_test">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcase.Login_page_test@3adcc812]" started-at="2023-08-05T21:36:53 BDT" name="setBrowser" finished-at="2023-08-05T21:36:56 BDT" duration-ms="2719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="test()[pri:0, instance:testcase.order_test@5f9be66c]" started-at="2023-06-03T16:40:16 BDT" name="test" finished-at="2023-06-03T16:40:33 BDT" duration-ms="17047" status="PASS">
+        <test-method signature="Test_case2()[pri:0, instance:testcase.Login_page_test@3adcc812]" started-at="2023-08-05T21:36:56 BDT" name="Test_case2" finished-at="2023-08-05T21:38:08 BDT" duration-ms="72242" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcase.order_test@5f9be66c]" started-at="2023-06-03T16:40:33 BDT" name="quitBrowser" finished-at="2023-06-03T16:40:34 BDT" duration-ms="637" status="PASS">
+        </test-method> <!-- Test_case2 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcase.Login_page_test@3adcc812]" started-at="2023-08-05T21:38:08 BDT" name="quitBrowser" finished-at="2023-08-05T21:38:08 BDT" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-      </class> <!-- testcase.order_test -->
+      </class> <!-- testcase.Login_page_test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -5,7 +5,7 @@ import org.openqa.selenium.By.ByXPath;
 
 import common_poperty.commons;
 
-public class Basic_information extends commons {
+public class Basic_information extends basepage {
 	public By first_name = By.xpath("//input[@placeholder='Enter your first name']");
 	public By last_name = By.xpath("(//input[@placeholder='Enter your last name'])[1]");
 	public By phone = By.xpath("(//input[@placeholder='Enter your phone no'])[1]");
